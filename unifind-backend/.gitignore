@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+unifind.db
+uploads/*
+!uploads/.gitkeep
+.pytest_cache/
