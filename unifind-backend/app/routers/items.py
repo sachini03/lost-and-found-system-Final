@@ -10,6 +10,7 @@ from ..models import Item, ItemImage, Notification, User
 from ..schemas import ItemCreate, ItemOut, StatusUpdate
 from ..security import get_current_user
 from ..serializers import item_to_dict
+from ..storage import upload_photo, delete_photo
 
 router = APIRouter(prefix="/items", tags=["items"])
 
