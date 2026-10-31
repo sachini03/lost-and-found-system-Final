@@ -1,5 +1,6 @@
 // Base URL of the backend. Change it in .env (VITE_API_URL) - no code edits needed.
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:4000/api";
+const API_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:4000/api";
 const FILE_HOST = API_URL.replace(/\/api\/?$/, "");
 const TOKEN_KEY = "unifind_token";
 
